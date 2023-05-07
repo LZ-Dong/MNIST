@@ -17,5 +17,9 @@ image = decode_idx3_ubyte('./data/train-images.idx3-ubyte')
 label = decode_idx1_ubyte('./data/train-labels.idx1-ubyte')
 ```
 我使用的ide是vscode，文件路径请以自己使用的ide为准。
+
 image：数据集数量\*28像素\*28像素的array。
+
 label：数据集数量的array。
+
+data文件夹由data.zip解压得到。
